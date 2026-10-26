@@ -298,11 +298,12 @@ section { scroll-margin-top: var(--header); }
   padding: 28px 32px 32px;
 }
 
-
-.about-more-btn {
-  display: table;
-  margin: 20px 0 0 auto;
-  align-self: auto;
+.center-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 18px;
 }
 
 
